@@ -1,0 +1,67 @@
+@import "reset.css";
+@import "eternal.css";
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body {
+    background-color: lightgrey;
+}
+.clear::after {
+    clear:both;
+    content: '';
+    display: block;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial;
+    text-align: center;
+    margin: 20px 0;
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+img {
+    text-align: center;
+    padding: 10px;
+}
+.col {
+    float: left;
+}
+.col-3 {
+    width: 35%;
+}
+.col-4 {
+    width: 33%;
+}
+.new__day-img-foto {
+    padding-left: 30px;
+}
+.new__day-img {
+    padding-bottom: 40px;
+}
+.bg-pink {
+    background-color: pink;;
+}
+.bg-blue {
+    background-color: lightblue;
+}
+.bg-green {
+    background-color: aquamarine;
+}
+.link a{
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial;
+}
+.mt20 {
+    margin-top: 20px;
+}
